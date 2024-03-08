@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
 <html>
 	<head>
 		<title>Login Page</title>

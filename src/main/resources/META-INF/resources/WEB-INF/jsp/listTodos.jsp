@@ -6,6 +6,8 @@
 		<title>Todos</title>
 	</head>
 	<body>
+		<%@ include file="common/navigation.jspf" %>
+	
 		<div class="container">
 			<h1>Welcome ${user}!</h1>
 			<hr>

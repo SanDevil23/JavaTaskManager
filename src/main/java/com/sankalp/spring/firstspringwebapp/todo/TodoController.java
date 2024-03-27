@@ -45,7 +45,7 @@ public class TodoController {
 		if (result.hasErrors()) {
 			return "todo";
 		}
-		todoService.addTodo("SanDevil23", todo.getDescription(), LocalDate.now().plusYears(1), false);
+		todoService.addTodo("SanDevil23", todo.getDescription(), todo.getTargetDate(), false);
 		return "redirect:list-todos";					// redirecting to the listTodos page	** 
 	}
 	
@@ -74,3 +74,4 @@ public class TodoController {
 		return "redirect:list-todos";					// redirecting to the listTodos page	** 
 	}
 }
+

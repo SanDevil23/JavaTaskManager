@@ -9,9 +9,8 @@
 		<%@ include file="common/navigation.jspf" %>
 	
 		<div class="container">
-			<h1>Welcome ${user}!</h1>
+			<h1>Upcome & Pending Tasks</h1>
 			<hr>
-			<h1>Your Todos are </h1>
 			<table class="table">
 				<thead>
 				<tr>

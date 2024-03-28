@@ -8,10 +8,10 @@
 	<body>
 		<%@ include file= "common/navigation.jspf" %>
 		<div class="container">
-			<h1>Welcome to the Redirected Page </h1>
+			<h1>Welcome to your Todos Manager </h1>
 			
-			<div><b>username:</b> ${user}</div>
-			<h5><a href="list-todos">Manage Todos</a></h5>
+			<div class="btn btn-dark"><b>username:</b> ${user}</div>
+			<a class="btn btn-outline-info" href="list-todos">Manage Todos</a>
 			
 			<script src="webjars/bootstrap/5.1.3/js/bootstrap.min.js"></script>
 			<script src="webjars/jquery/3.6.0/jquery.min.js"></script>
